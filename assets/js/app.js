@@ -25,6 +25,8 @@ jQuery(function() {
      e.preventDefault();
      $.backstretch('assets/img/mainback.jpg');
      $(".content").removeClass('active');
+     $(".thumb_arrows").css('top', '-450px');
+     $(".thumb_container").css('top', '-450px');
    });
     $("#workbottom").click(function(e) {
       e.preventDefault();
@@ -43,18 +45,24 @@ jQuery(function() {
     $.backstretch('assets/img/TPbackground.jpg');
     $(".content").removeClass('active');
     $(".content#words").addClass('active');
+    $(".thumb_arrows").css('top', '-450px');
+     $(".thumb_container").css('top', '-450px');
   });
   $("#contacttop").click(function(e) {
     e.preventDefault();
     $.backstretch('assets/img/Girldrip.jpg');
     $(".content").removeClass('active');
     $(".content#contact").addClass('active');
+    $(".thumb_arrows").css('top', '-450px');
+    $(".thumb_container").css('top', '-450px');
   });
   $("#linkstop").click(function(e) {
     e.preventDefault();
     $.backstretch('assets/img/memouthdrips.jpg');
     $(".content").removeClass('active');
     $(".content#links").addClass('active');
+    $(".thumb_arrows").css('top', '-450px');
+    $(".thumb_container").css('top', '-450px');
   });
 
   // Fancybox
